@@ -1,0 +1,228 @@
+#
+# simulation infrastructure
+#
+
+- git:
+    local-name: simulation_ws/src/ros_comm
+    uri: https://github.com/ros/ros_comm.git
+    version: indigo-devel
+- git:
+    local-name: simulation_ws/src/pr2_simulator
+    uri: https://github.com/PR2/pr2_simulator.git
+    version: indigo-devel
+
+#
+# giskard
+#
+
+- git:
+    local-name: giskard_ws/src/qpoases
+    uri: https://github.com/SemRoCo/qpOASES.git
+    version: master
+- git:
+    local-name: giskard_ws/src/xpressiongraph
+    uri: https://github.com/SemRoCo/expressiongraph.git
+    version: catkin-lib-export-bug-fix
+- git:
+    local-name: giskard_ws/src/giskard
+    uri: https://github.com/SemRoCo/giskard.git
+    version: master
+- git:
+    local-name: giskard_ws/src/giskard_msgs
+    uri: https://github.com/SemRoCo/giskard_msgs.git
+    version: master
+- git:
+    local-name: giskard_ws/src/giskard_examples
+    uri: https://github.com/SemRoCo/giskard_examples.git
+    version: master
+- git:
+    local-name: giskard_ws/src/cl_giskard
+    uri: https://github.com/SemRoCo/cl_giskard.git
+    version: master
+
+#
+# iai infrastructure 
+#
+
+- git:
+    local-name: iai_ws/src/iai_naive_kinematics_sim
+    uri: https://github.com/code-iai/iai_naive_kinematics_sim.git
+    version: master
+- git:
+    local-name: iai_ws/src/robot_state_chain_publisher
+    uri: https://github.com/code-iai/robot_state_chain_publisher.git
+    version: master
+- git:
+    local-name: iai_ws/src/iai_control_pkgs
+    uri: https://github.com/code-iai/iai_control_pkgs.git
+    version: master
+- git:
+    local-name: iai_ws/src/iai_robots
+    uri: https://github.com/code-iai/iai_robots.git
+    version: master
+- git:
+    local-name: iai_ws/src/iai_cad_tools
+    uri: https://github.com/code-iai/iai_cad_tools.git
+    version: master
+- git:
+    local-name: iai_ws/src/iai_common_msgs
+    uri: https://github.com/code-iai/iai_common_msgs.git
+    version: master
+- git:
+    local-name: iai_ws/src/nav_pcontroller
+    uri: https://github.com/code-iai/nav_pcontroller.git
+    version: master
+- git:
+    local-name: iai_ws/src/iai_maps
+    uri: https://github.com/code-iai/iai_maps.git
+    version: master
+- git:
+    local-name: iai_ws/src/snap_map_icp
+    uri: https://github.com/code-iai/snap_map_icp.git
+    version: master
+- git:
+    local-name: iai_ws/src/designator_integration
+    uri: https://github.com/code-iai/designator_integration.git
+    version: master
+
+#
+# knowrob infrastructure
+#
+
+- git:
+    local-name: knowrob_ws/src/knowrob
+    uri: https://github.com/knowrob/knowrob.git
+#    version: master
+    version: robohow
+- git:
+    local-name: knowrob_ws/src/knowrob_data
+    uri: https://github.com/knowrob/knowrob_data.git
+    version: master
+- git:
+    local-name: knowrob_ws/src/knowrob_gui
+    uri: https://github.com/knowrob/knowrob_gui.git
+    version: master
+- git:
+    local-name: knowrob_ws/src/knowrob_addons
+    uri: https://github.com/knowrob/knowrob_addons.git
+    version: master
+- git:
+    local-name: knowrob_ws/src/knowrob_tutorials
+    uri: https://github.com/knowrob/knowrob_tutorials.git
+    version: master
+
+#
+# roslisp_infrastructure
+#
+
+- git:
+    local-name: roslisp_ws/src/ros_emacs_utils
+    uri: https://github.com/code-iai/ros_emacs_utils.git
+    version: master
+- git:
+    local-name: roslisp_ws/src/roslisp_tutorials
+    uri: https://github.com/code-iai/roslisp_tutorials.git
+    version: master
+- git:
+    local-name: roslisp_ws/src/roslisp_common
+    uri: https://github.com/gheorghelisca/roslisp_common.git
+    version: publisher-global
+
+#
+# cram infrastructure
+#
+
+- git: 
+    local-name: cram_ws/src/cram_3rdparty
+    uri: https://github.com/cram2/cram_3rdparty.git
+    version: master
+- git: 
+    local-name: cram_ws/src/cram_core
+    uri: https://github.com/cram2/cram_core.git
+    version: master
+- git: 
+    local-name: cram_ws/src/cram_beliefstate
+    uri: https://github.com/cram2/cram_beliefstate.git
+    version: master
+- git: 
+    local-name: cram_ws/src/cram_plans
+    uri: https://github.com/cram2/cram_plans.git
+    version: master
+- git: 
+    local-name: cram_ws/src/cram_json_prolog
+    uri: https://github.com/cram2/cram_json_prolog.git
+    version: master
+- git: 
+    local-name: cram_ws/src/cram_semantic_maps
+    uri: https://github.com/cram2/cram_semantic_maps.git
+    version: master
+- git: 
+    local-name: cram_ws/src/cram_3d_world
+    uri: https://github.com/cram2/cram_3d_world.git
+    version: master
+- git: 
+    local-name: cram_ws/src/cram_costmaps
+    uri: https://github.com/cram2/cram_costmaps.git
+    version: master
+- git:
+    local-name: cram_ws/src/cram_moveit
+    uri: https://github.com/cram2/cram_moveit.git
+    version: master
+- git: 
+    local-name: cram_ws/src/cram_pr2
+    uri: https://github.com/cram2/cram_pr2.git
+    version: master
+- git: 
+    local-name: cram_ws/src/cram_projection_demos
+    uri: https://github.com/cram2/cram_projection_demos.git
+    version: master
+- git: 
+    local-name: cram_ws/src/cram_tutorials
+    uri: https://github.com/cram2/cram_tutorials.git
+    version: master
+- git: 
+    local-name: cram_ws/src/cram_gazebo
+    uri: https://github.com/cram2/cram_gazebo.git 
+    version: master
+- git:
+    local-name: cram_ws/src/cram_perception
+    uri: https://github.com/cram2/cram_perception.git
+    version: master
+
+#
+# semantic recording infrastructure
+#
+
+- git:
+    local-name: semrec_ws/src/semrec
+    uri: https://github.com/code-iai/semrec.git
+    version: master
+
+- git:
+    local-name: semrec_ws/src/mongodb_log
+    uri: https://github.com/code-iai/ros-mongodb_log.git
+    version: master
+
+#
+# catkin workspace
+#
+
+- git:
+    local-name: catkin_ws/src/plan_based_control
+    uri: gitolite@kif.ai.uni-bremen.de:plan_based_control.git
+    version: master
+
+- git:
+    local-name: catkin_ws/src/gazebo_attache_plugin
+    uri: https://github.com/fairlight1337/gazebo_attache_plugin.git 
+    version: master
+
+- git:
+    local-name: catkin_ws/src/longterm_fetch_and_place
+    uri: https://github.com/code-iai/longterm_fetch_and_place.git
+    version: master
+
+- git:
+    local-name: catkin_ws/src/robohow_review_year4
+    uri: https://github.com/robohow/robohow_review_year4.git
+    version: master
