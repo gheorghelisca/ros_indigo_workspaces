@@ -20,9 +20,10 @@
     uri: https://github.com/SemRoCo/qpOASES.git
     version: master
 - git:
-    local-name: giskard_ws/src/xpressiongraph
+    local-name: giskard_ws/src/expressiongraph
     uri: https://github.com/SemRoCo/expressiongraph.git
-    version: catkin-lib-export-bug-fix
+#    version: catkin-lib-export-bug-fix
+    version: fmod-new-feature
 - git:
     local-name: giskard_ws/src/giskard
     uri: https://github.com/SemRoCo/giskard.git
@@ -35,10 +36,10 @@
     local-name: giskard_ws/src/giskard_examples
     uri: https://github.com/SemRoCo/giskard_examples.git
     version: master
-- git:
-    local-name: giskard_ws/src/cl_giskard
-    uri: https://github.com/SemRoCo/cl_giskard.git
-    version: master
+#- git:
+#    local-name: giskard_ws/src/cl_giskard
+#    uri: https://github.com/SemRoCo/cl_giskard.git
+#    version: master
 
 #
 # iai infrastructure 
@@ -210,7 +211,8 @@
 - git:
     local-name: catkin_ws/src/plan_based_control
     uri: gitolite@kif.ai.uni-bremen.de:plan_based_control.git
-    version: master
+#    version: master
+    version: pizza-demo
 
 - git:
     local-name: catkin_ws/src/gazebo_attache_plugin
