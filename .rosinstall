@@ -210,8 +210,8 @@
 
 - git:
     local-name: catkin_ws/src/plan_based_control
-#    uri: gitolite@kif.ai.uni-bremen.de:plan_based_control.git
-    uri: https://gheorghelisca@bitbucket.org/gheorghelisca/plan_based_control.git 
+    uri: gitolite@kif.ai.uni-bremen.de:plan_based_control.git
+#    uri: https://gheorghelisca@bitbucket.org/gheorghelisca/plan_based_control.git 
 #    version: master
     version: pizza-demo
 
