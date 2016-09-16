@@ -36,10 +36,6 @@
     local-name: giskard_ws/src/giskard_examples
     uri: https://github.com/SemRoCo/giskard_examples.git
     version: master
-#- git:
-#    local-name: giskard_ws/src/cl_giskard
-#    uri: https://github.com/SemRoCo/cl_giskard.git
-#    version: master
 
 #
 # iai infrastructure 
@@ -93,8 +89,7 @@
 - git:
     local-name: knowrob_ws/src/knowrob
     uri: https://github.com/knowrob/knowrob.git
-#    version: master
-    version: robohow
+    version: master
 - git:
     local-name: knowrob_ws/src/knowrob_data
     uri: https://github.com/knowrob/knowrob_data.git
@@ -212,8 +207,7 @@
     local-name: catkin_ws/src/plan_based_control
     uri: gitolite@kif.ai.uni-bremen.de:plan_based_control.git
 #    uri: https://gheorghelisca@bitbucket.org/gheorghelisca/plan_based_control.git 
-#    version: master
-    version: pizza-demo
+    version: master
 
 - git:
     local-name: catkin_ws/src/gazebo_attache_plugin
