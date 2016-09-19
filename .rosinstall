@@ -7,12 +7,16 @@
     uri: https://github.com/ros/ros_comm.git
     version: indigo-devel
 - git:
+    local-name: simulation_ws/src/gazebo_ros
+    uri: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+    version: indigo-devel
+- git:
     local-name: simulation_ws/src/pr2_simulator
     uri: https://github.com/PR2/pr2_simulator.git
     version: indigo-devel
-- git:
-    local-name: simulation_ws/src/gazebo_ros
-    uri: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+- git: # for pr2_dashboard_aggregator
+    local-name: simulation_ws/src/pr2_common
+    uri: https://github.com/PR2/pr2_common.git
     version: indigo-devel
 
 #
@@ -60,6 +64,10 @@
 - git:
     local-name: iai_ws/src/iai_robots
     uri: https://github.com/code-iai/iai_robots.git
+    version: master
+- git:
+    local-name: iai_ws/src/moveit_config
+    uri: https://github.com/mgvargas/Moveit_config.git
     version: master
 - git:
     local-name: iai_ws/src/iai_cad_tools
